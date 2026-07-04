@@ -17,7 +17,7 @@
 </header>
 
 <nav>
-    <a href="/">Home</a>
+    <a href="/Home">Home</a>
     <a href="/customer">Customer</a>
     <a href="/laptop">Laptop</a>
     <a href="/orders">Orders</a>

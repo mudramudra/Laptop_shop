@@ -28,4 +28,8 @@ public class ApplicationController {
 	public String showRegistrationpage() {
 		return "registration";
 	}
+	@GetMapping("/Home")
+	public String showHomePage() {
+		return "home";
+	}
 }

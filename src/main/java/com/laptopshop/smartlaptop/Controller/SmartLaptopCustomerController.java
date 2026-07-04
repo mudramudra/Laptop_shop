@@ -106,4 +106,8 @@ public class SmartLaptopCustomerController {
 
         return "redirect:/allcomputerinfo";
     }
+    @GetMapping("/laptop")
+    public 	String openLaptopPage() {
+    		return "laptop";
+    }
 }
