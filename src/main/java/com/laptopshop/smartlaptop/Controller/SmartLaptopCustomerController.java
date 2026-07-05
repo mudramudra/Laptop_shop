@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -110,4 +111,17 @@ public class SmartLaptopCustomerController {
     public 	String openLaptopPage() {
     		return "laptop";
     }
+
+	@GetMapping("/laptop-details/{id}")
+	public String laptopDetails(@PathVariable int id, Model model) {
+	
+	    // Later you will fetch the laptop from the database using the id
+	
+	    return "laptop-details";
+	}
+	@GetMapping("/buy/{id}")
+	public String laptopBuyNow(@PathVariable int id,Model model) {
+		return "buy-now";
+	}
+	
 }

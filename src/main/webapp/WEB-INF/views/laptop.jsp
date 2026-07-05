@@ -50,8 +50,10 @@
 
         <h3>₹62,999</h3>
 
-        <button>Buy Now</button>
-
+        <div class="buttons">
+	    <a href="/buy/1" class="buy-btn">Buy Now</a>
+	    <a href="/laptop-details/1" class="more-btn">More</a>
+		</div>
     </div>
 
     <div class="card">
@@ -66,7 +68,10 @@
 
         <h3>₹79,999</h3>
 
-        <button>Buy Now</button>
+        <div class="buttons">
+		    <a href="/buy/2" class="buy-btn">Buy Now</a>
+		    <a href="/laptop-details/2" class="more-btn">More</a>
+		</div>
 
     </div>
 
@@ -82,8 +87,10 @@
 
         <h3>₹68,999</h3>
 
-        <button>Buy Now</button>
-
+        <div class="buttons">
+		    <a href="/buy/3" class="buy-btn">Buy Now</a>
+		    <a href="/laptop-details/3" class="more-btn">More</a>
+		</div>
     </div>
 
     <div class="card">
@@ -98,7 +105,10 @@
 
         <h3>₹55,999</h3>
 
-        <button>Buy Now</button>
+        <div class="buttons">
+		    <a href="/buy/4" class="buy-btn">Buy Now</a>
+		    <a href="/laptop-details/4" class="more-btn">More</a>
+		</div>
 
     </div>
 
@@ -114,7 +124,10 @@
 
         <h3>₹1,09,999</h3>
 
-        <button>Buy Now</button>
+        <div class="buttons">
+		    <a href="/buy/5" class="buy-btn">Buy Now</a>
+		    <a href="/laptop-details/5" class="more-btn">More</a>
+		</div>
 
     </div>
 
@@ -130,8 +143,10 @@
 
         <h3>₹59,999</h3>
 
-        <button>Buy Now</button>
-
+       <div class="buttons">
+		    <a href="/buy/6" class="buy-btn">Buy Now</a>
+		    <a href="/laptop-details/6" class="more-btn">More</a>
+		</div>
     </div>
 
 </section>

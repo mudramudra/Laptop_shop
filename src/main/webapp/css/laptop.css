@@ -115,3 +115,32 @@ footer{
     padding:20px;
     margin-top:30px;
 }
+.buttons{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.buy-btn{
+    background:#007bff;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:5px;
+}
+
+.more-btn{
+    background:#28a745;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:5px;
+}
+
+.buy-btn:hover{
+    background:#0056b3;
+}
+
+.more-btn:hover{
+    background:#1f8a38;
+}
