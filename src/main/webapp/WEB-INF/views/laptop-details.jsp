@@ -30,14 +30,18 @@ pageEncoding="UTF-8"%>
 
     <div class="image-section">
 
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ8SMSq62F2-ZH_-ddvW7o9KXuqCTKRvWUOaf9PVQwPw&s=10"
-             alt="Laptop">
+    <button class="slider-btn left" onclick="previousImage()">&#10094;</button>
 
-    </div>
+    <img id="sliderImage" class="slider-image" src="/images/dell_1.jpg" alt="Laptop">
 
+    <button class="slider-btn right" onclick="nextImage()">&#10095;</button>
+
+</div>
+
+</div>
     <div class="details">
-
-        <h1>Dell Inspiron 15</h1>
+    <center>
+    		<h1>Dell Inspiron 15</h1>
 
         <h2>₹62,999</h2>
 
@@ -127,6 +131,50 @@ pageEncoding="UTF-8"%>
     <p>© 2026 Smart Laptop Shop</p>
 
 </footer>
+    <center/>
+    
+    
+    
+
+        
+<script>
+
+const images = [
+    "/images/dell_1.jpg",
+    "/images/dell_2.jpg",
+    "/images/dell_3.jpg",
+    "/images/dell_4.jpg",
+    "/images/dell_5.jpg",
+   
+];
+
+let current = 0;
+
+function showImage() {
+    document.getElementById("sliderImage").src = images[current];
+}
+
+function nextImage() {
+    current++;
+
+    if(current >= images.length){
+        current = 0;
+    }
+
+    showImage();
+}
+
+function previousImage() {
+    current--;
+
+    if(current < 0){
+        current = images.length - 1;
+    }
+
+    showImage();
+}
+
+</script>
 
 </body>
 </html>
